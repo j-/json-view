@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<title>JSON view</title>
+
+<link rel="stylesheet" href="json-view.css">
+
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="json-view.js"></script>
+
+<script>
+$.ajax({
+	url: 'http://www.reddit.com/.json',
+	dataType: 'jsonp',
+	jsonp: 'jsonp',
+	success: function (response) {
+		$(function () {
+			$.jsonView(response).appendTo(document.body);
+		});
+	}
+});
+</script>

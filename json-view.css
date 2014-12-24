@@ -1,0 +1,51 @@
+/* display */
+
+.json-view-root {
+	font-family: monospace;
+	display: block;
+}
+.json-view-el {
+	margin: 0;
+}
+.json-view-array,
+.json-view-boolean,
+.json-view-null,
+.json-view-number,
+.json-view-object,
+.json-view-string,
+.json-view-undefined {
+	display: inline;
+}
+.json-view-bracket {
+	font-weight: bold;
+}
+
+/* colors */
+
+.json-view-boolean {
+	color: hsl(0, 68%, 42%);
+}
+.json-view-number {
+	color: hsl(240, 100%, 50%);
+}
+.json-view-null,
+.json-view-undefined {
+	color: hsl(0, 0%, 50%);
+}
+.json-view-string-quote {
+	color: hsla(120, 100%, 25%, 0.5);
+}
+.json-view-string-value {
+	color: hsl(120, 100%, 25%);
+}
+.json-view-key-quote {
+	color: hsla(0, 0%, 27%, 0.5);
+}
+.json-view-key-name {
+	color: hsl(0, 0%, 27%);
+}
+.json-view-bracket,
+.json-view-colon,
+.json-view-comma {
+	color: hsl(0, 0%, 27%);
+}
