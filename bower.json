@@ -1,0 +1,25 @@
+{
+  "name": "json-view",
+  "main": "json-view.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/j-/json-view",
+  "authors": [
+    "Jamie Hoeks <j@skeoh.com>"
+  ],
+  "description": "Render JSON",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "json",
+    "view"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
